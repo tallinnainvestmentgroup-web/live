@@ -1,3 +1,4 @@
+<script>
 setTimeout(() => {
   const btn = document.querySelector(".customBuyBtn");
   if (!btn) {
@@ -39,3 +40,4 @@ setTimeout(() => {
     window.location.href = finalUrl;
   });
 }, 500);
+<script>
