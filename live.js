@@ -19,8 +19,8 @@ setTimeout(() => {
     }
 
     const productName = firstName
-      ? ${firstName} Water Bottle + ${variantLabel} Accessory
-      : Personalised Water Bottle + ${variantLabel} Accessory;
+      ? `${firstName} Water Bottle + ${variantLabel} Accessory`
+      : `Personalised Water Bottle + ${variantLabel} Accessory`;
 
     const productImageMap = {
       Blue: "https://cdn.shopify.com/s/files/1/0958/0625/9546/files/blue_bottom.png?v=1751373666",
@@ -34,7 +34,7 @@ setTimeout(() => {
     const adv2 = encodeURIComponent(imageUrl);
 
     const baseUrl = "https://www.molipy8trk.com/4784JN/42Q2FGQ/";
-    const queryParams = ?adv1=${adv1}___${adv2};
+    const queryParams = `?adv1=${adv1}___${adv2}`;
 
     const finalUrl = baseUrl + queryParams;
     window.location.href = finalUrl;
