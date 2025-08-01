@@ -40,4 +40,4 @@ setTimeout(() => {
     window.location.href = finalUrl;
   });
 }, 500);
-<script>
+</script>
